@@ -185,7 +185,7 @@ public class Lab1 {
     }
 
     /**
-     * 必须保留的公开函数：计算两个单词的最短路径，返回字符串描述
+     * 公开函数：计算两个单词的最短路径，返回字符串描述
      */
     public static String calcShortestPath(String word1, String word2) {
         Graph.ShortestPathResult result = graph.getShortestPath(word1, word2);
